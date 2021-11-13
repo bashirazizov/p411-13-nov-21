@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+.orange{
+    background: orangered;
+    height: 200px;
+}
+.green{
+    background: #86f686;
+    height: 200px;
+}
+.blue{
+    background: rgb(95, 95, 255);
+    height: 200px;
+}
+h1{
+    font-size: 40px;
+    color: green;
+}

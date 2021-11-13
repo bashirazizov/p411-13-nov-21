@@ -1,0 +1,30 @@
+.icon {
+  color: rgb(255, 124, 124);
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: heartPump;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes heartPump {
+  0% {
+    font-size: 100px;
+  }
+  40%{
+    font-size: 150px;
+  }
+  50%{
+    font-size: 100px;
+  }
+  60%{
+    font-size: 150px;
+  }
+  100%{
+    font-size: 100px;
+  }
+}
